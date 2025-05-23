@@ -60,7 +60,7 @@ Involves any and all rough work that leads up to the final circuit, which is att
 
 *The chart below shows what number should be displayed, the binary value, the decimal equivalent, and which segments and which display should be receiving inputs of either 0's and 1's, which are represented through blank spaces and x's in the respective order.*
 
-![Segment Mapping Chart](media/image12.png) <!-- Add your segment mapping chart here -->
+![Segment Mapping Chart](media/image12.png) <!-- Add segment mapping chart here -->
 
 For each K-Map below, once again, x's represent 1's and blank spaces represent 0's. Directly below each of them is their simplified expression and steps/laws if they were reduced further, followed by their corresponding Logisim circuit. Note that for each segment in 'Display 2', a common cathode was used instead of an anode for simplicity while testing since it is visually displeasing to see all other segments turned on, while attempting to test and focus on one single segment.
 
