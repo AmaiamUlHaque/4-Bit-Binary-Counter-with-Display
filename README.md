@@ -2,7 +2,7 @@
 A 4-bit binary counter built in Logisim that drives two seven-segment displays. The circuit counts from55 to 70 using an enable bit and three counting bits. The design process involved creating truth tables, optimizing logic with Karnaugh maps, and implementing the final circuit with logic gates.
 
 
-![Circuit Diagram](media/image4.png)
+![Circuit Diagram](media/EntireCircuitDiagram.png)
 
 ---
 
@@ -62,7 +62,7 @@ Involves any and all rough work that leads up to the final circuit, which is att
 
 *The chart below shows what number should be displayed, the binary value, the decimal equivalent, and which segments and which display should be receiving inputs of either 0's and 1's, which are represented through blank spaces and x's in the respective order.*
 
-![Segment Mapping Chart](media/image12.png)
+![Segment Mapping Chart](media/SegmentMappingChart.png)
 
 For each K-Map below, once again, x's represent 1's and blank spaces represent 0's. Directly below each of them is their simplified expression and steps/laws if they were reduced further, followed by their corresponding Logisim circuit. Note that for each segment in 'Display 2', a common cathode was used instead of an anode for simplicity while testing since it is visually displeasing to see all other segments turned on, while attempting to test and focus on one single segment.
 
@@ -70,30 +70,30 @@ For each K-Map below, once again, x's represent 1's and blank spaces represent 0
 
 | Segment | K-Map | Circuit | Notes |
 |---------|-------|---------|--------|
-| **Segment 'a'** | ![Display 1 Segment a K-Map](media/image15.jpg) | | |
-| **Segment 'b'** | ![Display 1 Segment b K-Map](media/image15.jpg) | | 1. Applied DeMorgan's Theorem |
-| **Segment 'c'** | ![Display 1 Segment c K-Map](media/image15.jpg) | | |
-| **Segment 'd'** | ![Display 1 Segment d K-Map](media/image15.jpg) | | |
-| **Segment 'e'** | ![Display 1 Segment e K-Map](media/image14.jpg) | | |
-| **Segment 'f'** | ![Display 1 Segment f K-Map](media/image14.jpg) | | |
-| **Segment 'g'** | ![Display 1 Segment g K-Map](media/image14.jpg) | | |
-| **Complete Display 1** | | ![Display 1 Circuit](media/image2.png)   | |
+| **Segment 'a'** | ![Display 1 Segment a K-Map](media/KMap1a.jpg) | | |
+| **Segment 'b'** | ![Display 1 Segment b K-Map](media/KMap1b.jpg) | | 1. Applied DeMorgan's Theorem |
+| **Segment 'c'** | ![Display 1 Segment c K-Map](media/KMap1c.jpg) | | |
+| **Segment 'd'** | ![Display 1 Segment d K-Map](media/KMap1d.jpg) | | |
+| **Segment 'e'** | ![Display 1 Segment e K-Map](media/KMap1e.jpg) | | |
+| **Segment 'f'** | ![Display 1 Segment f K-Map](media/KMap1f.jpg) | | |
+| **Segment 'g'** | ![Display 1 Segment g K-Map](media/KMap1g.jpg) | | |
+| **Complete Display 1** | | ![Display 1 Circuit](media/CircuitDiagramDisplay1.png)   | |
 
 ### Display 2 Segments
 
 | Segment | K-Map | Circuit | Notes |
 |---------|-------|---------|--------|
-| **Segment 'a'** | ![Display 2 Segment a K-Map](media/image15.jpg) | ![Display 2 Segment a Circuit](media/image6.png)  | |
-| **Segment 'b'** | ![Display 2 Segment b K-Map](media/image15.jpg) | ![Display 2 Segment b Circuit](media/image5.png)  | |
-| **Segment 'c'** | ![Display 2 Segment c K-Map](media/image15.jpg) | ![Display 2 Segment c Circuit](media/image11.png) | |
-| **Segment 'd'** | ![Display 2 Segment d K-Map](media/image15.jpg) | ![Display 2 Segment d Circuit](media/image13.png) | 1. Factored out AC' out of 2nd & 3rd terms.<br>2. Simplified to XOR using (A'B+AB') = A⊕B. |
-| **Segment 'e'** | ![Display 2 Segment e K-Map](media/image14.jpg) | ![Display 2 Segment e Circuit](media/image8.png) | |
-| **Segment 'f'** | ![Display 2 Segment f K-Map](media/image14.jpg) | ![Display 2 Segment f Circuit](media/image9.png) | 1. Changed order of terms for simplicity<br>2. Factored out D' from 2nd & 3rd term<br>3. Simplified to XOR using (A'B+AB') = A⊕B. |
-| **Segment 'g'** | ![Display 2 Segment g K-Map](media/image14.jpg) | ![Display 2 Segment g Circuit](media/image10.png) | |
+| **Segment 'a'** | ![Display 2 Segment a K-Map](media/KMap2a.jpg) | ![Display 2 Segment a Circuit](media/Circuit2a.png)  | |
+| **Segment 'b'** | ![Display 2 Segment b K-Map](media/KMap2b.jpg) | ![Display 2 Segment b Circuit](media/Circuit2b.png)  | |
+| **Segment 'c'** | ![Display 2 Segment c K-Map](media/KMap2c.jpg) | ![Display 2 Segment c Circuit](media/Circuit2c.png) | |
+| **Segment 'd'** | ![Display 2 Segment d K-Map](media/KMap2d.jpg) | ![Display 2 Segment d Circuit](media/Circuit2d.png) | 1. Factored out AC' out of 2nd & 3rd terms.<br>2. Simplified to XOR using (A'B+AB') = A⊕B. |
+| **Segment 'e'** | ![Display 2 Segment e K-Map](media/KMap2e.jpg) | ![Display 2 Segment e Circuit](media/Circuit2e.png) | |
+| **Segment 'f'** | ![Display 2 Segment f K-Map](media/KMap2f.jpg) | ![Display 2 Segment f Circuit](media/Circuit2f.png) | 1. Changed order of terms for simplicity<br>2. Factored out D' from 2nd & 3rd term<br>3. Simplified to XOR using (A'B+AB') = A⊕B. |
+| **Segment 'g'** | ![Display 2 Segment g K-Map](media/KMap2g.jpg) | ![Display 2 Segment g Circuit](media/Circuit2g.png) | |
 
 ### Both Digits without 'Enable Bit'
 
-![Both Displays Circuit](media/image7.png)
+![Both Displays Circuit](media/DisplaysWithoutEnable.png)
 
 ### Figuring Out 'Enable Bit'
 
@@ -110,14 +110,14 @@ However, it must be noted that since this is a common anode instead of a common 
 | 1  | 0 | off = 1 |
 | 1  | 1 | on = 0 |
 
-![Enable Bit K-Map](media/image3.png)
+![Enable Bit Circuit Diagram](media/CircuitEnableBit.png)
 
 ## Logisim Circuit
 
 *Directly below are two pictures of the Logisim circuit. The one on top is more convenient for tracing the input all the way to the output, while the one below is more convenient for testing it out. Although pictures are shown, the file attached will provide much more convenience.*
 
-![Logisim Circuit Diagram 1](media/image4.png)
+![Logisim Circuit Diagram 1](media/FinalCircuitTracing.png)
 
-![Logisim Circuit Diagram 2](media/image1.png)
+![Logisim Circuit Diagram 2](media/FinalCircuitTesting.png)
 
 ---
