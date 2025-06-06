@@ -10,6 +10,14 @@ The binary counter is able to use the binary values 0000 to 1111 (which is 0 to 
 <video controls src="media/4 Bit Binary Counter Demo Video.mp4" title="4 Bit Binary Counter with Display Demo Video"></video>
 *I'm honestly not sure why the frame rate of the embedded video is so low...but please focus on the double seven segment displays and how they change depending on their corresponding inputs of ABCD and whether or not the enable bit is on or off.*
 
+one:
+![demo video](media/4BitBinaryCounterDemoVideo.mp4)
+
+two:
+![demo video2](media/4%20Bit%20Binary%20Counter%20Demo%20Video.mp4)
+
+
+
 ---
 
 ## Table of Contents
