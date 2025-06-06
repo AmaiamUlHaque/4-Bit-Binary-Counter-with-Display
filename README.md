@@ -1,8 +1,16 @@
 # 4-Bit-Binary-Counter-with-Display
-A 4-bit binary counter built in Logisim that drives two seven-segment displays. The circuit counts from55 to 70 using an enable bit and three counting bits. The design process involved creating truth tables, optimizing logic with Karnaugh maps, and implementing the final circuit with logic gates.
+A 4-bit binary counter built in Logisim that drives two seven-segment displays. The circuit counts from 55 to 70 using an enable bit and three counting bits. The design process involved creating truth tables, optimizing logic with Karnaugh maps, and implementing the final circuit with logic gates.
 
 
 ![Circuit Diagram](media/EntireCircuitDiagram.png)
+
+Final Result Demostration:
+The binary counter is able to use the binary values 0000 to 1111 (which is 0 to 15 in decimal) to display the corresponding numbers of 55 to 70 only when the enable bit is set to 1. Otherwise if the enable bit is set to 0, the displays will remain off no matter what input 'ABCD' is.
+
+<video controls src="https://github.com/AmaiamUlHaque/4-Bit-Binary-Counter-with-Display/blob/main/media/4%20Bit%20Binary%20Counter%20Demo%20Video.mp4" title="Title"></video>
+
+
+
 
 ---
 
