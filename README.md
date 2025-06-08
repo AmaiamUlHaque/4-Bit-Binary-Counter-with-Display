@@ -7,7 +7,7 @@ A 4-bit binary counter built in Logisim that drives two seven-segment displays. 
 Final Result Demostration:
 The binary counter is able to use the binary values 0000 to 1111 (which is 0 to 15 in decimal) to display the corresponding numbers of 55 to 70 only when the enable bit is set to 1. Otherwise if the enable bit is set to 0, the displays will remain off no matter what input 'ABCD' is.
 
-<video controls src="media/4 Bit Binary Counter Demo Video.mp4" title="4 Bit Binary Counter with Display Demo Video"></video>
+<video controls src="media/DemoVideoButSmaller.mp4" title="4 Bit Binary Counter with Display Demo Video"></video>
 *I'm honestly not sure why the frame rate of the embedded video is so low...but please focus on the double seven segment displays and how they change depending on their corresponding inputs of ABCD and whether or not the enable bit is on or off.*
 
 one:
