@@ -16,8 +16,14 @@ one:
 two:
 ![demo video2](media/4%20Bit%20Binary%20Counter%20Demo%20Video.mp4)
 
+three:
+<video controls src="https://github.com/AmaiamUlHaque/4-Bit-Binary-Counter-with-Display/blob/main/media/DemoVideoButSmaller.mp4" title="demovideo3"></video>
 
+four:
+[demo4]("https://github.com/AmaiamUlHaque/4-Bit-Binary-Counter-with-Display/blob/main/media/DemoVideoButSmaller.mp4")
 
+five:
+[demo5]("https://github.com/AmaiamUlHaque/4-Bit-Binary-Counter-with-Display/blob/main/media/DemoVideoButSmaller.mp4")
 ---
 
 ## Table of Contents
