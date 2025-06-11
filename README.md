@@ -11,9 +11,6 @@ https://github.com/user-attachments/assets/a989e148-60b0-49fe-bb09-d9f20cde0d07
 
 *I'm honestly not sure why the frame rate of the embedded video is so low...but please focus on the double seven segment displays and how they change depending on their corresponding inputs of ABCD and whether or not the enable bit is on or off.*
 
-one:
-
-
 ---
 
 ## Table of Contents
